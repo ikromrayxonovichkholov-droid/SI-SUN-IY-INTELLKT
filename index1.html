@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<title>Bosh sahifa</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+#container {
+  display: flex;
+  height: 100vh;
+}
+
+#menu {
+  width: 220px;
+  border-right: 1px solid #ccc;
+}
+
+#content {
+  flex: 1;
+}
+</style>
+</head>
+
+<body>
+
+<div id="container">
+
+  <!-- MENU -->
+  <iframe src="menu.html" name="menu" id="menu"></iframe>
+
+  <!-- CONTENT -->
+  <iframe src="bosh.html" name="content" id="content"></iframe>
+
+</div>
+
+</body>
+</html>
